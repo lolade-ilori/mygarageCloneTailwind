@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply text-offwhite capitalize font-sans no-underline text-base hover:text-white hover:after:h-2 hover:after:w-2 hover:after:absolute hover:after:ml-2 hover:after:bg-hoverRed hover:after:rounded-full transition ease-in duration-300;
+}
+
+.swiper-button-next {
+  @apply static top-0 mt-0 bg-none;
+}

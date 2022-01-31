@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Garage Clone</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5166a7e5d7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="parent w-full h-screen bg-garage-blue relative overflow-hidden ">
+        <div class="w-full relative flex py-4 px-20 justify-between items-center z-10">
+            <div class="basis-1/4">
+                <a href="#" class="font-serif lowercase text-[2em] text-white ">mygarage-clone</a>
+            </div>
+
+            <div class="basis-1/2 ">
+                <ul class="float-right flex justify-center w-full mt-2 relative">
+                    <li class="float-left list-none mr-8"><a href="#" class="link">cars</a></li>
+                    <li class="float-left list-none mr-8"><a href="#" class="link">history</a></li>
+                    <li class="float-left list-none mr-8"><a href="#" class="link">technology</a></li>
+                    <li class="float-left list-none mr-8"><a href="#" class="link">production</a></li>
+                    <li class="float-left list-none mr-8"><a href="#" class="link">reviews</a></li>
+                </ul>
+            </div>
+
+            <div class="basis-1/4">
+                <ul class="float-right flex mt-2 social-icons">
+                    <li class="ml-5 list-none"><a href="#" class="text-white no-underline w-3 rounded-full py-3 px-3 justify-center items-center h-3 text-base border-2 border-bgSocialIcons bg-bgSocialIcons hover:text-hoverRed hover:bg-white hover:border-2 hover:border-white transition ease-in duration-300"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li class="ml-5 list-none"><a href="#" class="text-white no-underline w-3 rounded-full py-3 px-4 justify-center items-center h-3 text-base border-2 border-bgSocialIcons bg-bgSocialIcons hover:text-twitterBlue hover:bg-white hover:border-2 hover:border-white transition ease-in duration-300"><i class="fab fa-twitter"></i></a></li>
+                    <li class="ml-5 list-none"><a href="#" class="text-white no-underline w-3 rounded-full py-3 px-4 justify-center items-center h-3 text-base border-2 border-bgSocialIcons bg-bgSocialIcons hover:text-hoverRed hover:bg-white hover:border-2 hover:border-white transition ease-in duration-300"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section>
+            <span class="absolute text-xxxxl font-semibold font-serif top-72 right-24 z-0 text-yearColor">1985</span>
+            <div class="body-container flex px-20 py-4 relative">
+                <div class="basis-2/5 ">
+                    <div class="car-details mt-24">
+                        <div class="swiper w-[30em]">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h1 class="text-xxl font-serif capitalize mb-4 font-semibold text-hoverRed">
+                                        chevrolet <br>
+                                        <span class="text-xxxl text-white">camaro</span>
+                                    </h1>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h1 class="text-xxl font-serif capitalize mb-4 font-semibold text-hoverRed">
+                                        Land rover <br>
+                                        <span class="text-xxxl text-white">defender</span>
+                                    </h1>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h1 class="text-xxl font-serif capitalize mb-4 font-semibold text-hoverRed">
+                                        Range Rover <br>
+                                        <span class="text-xxxl text-white">sport</span>
+                                    </h1>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h1 class="text-xxl font-serif capitalize mb-4 font-semibold text-hoverRed">
+                                        Dodge <br>
+                                        <span class="text-xxxl text-white">challenger</span>
+                                    </h1>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h1 class="text-xxl font-serif capitalize mb-4 font-semibold text-hoverRed">
+                                        Nissan <br>
+                                        <span class="text-xxxl text-white">skyline</span>
+                                    </h1>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h1 class="text-xxl font-serif capitalize mb-4 font-semibold text-hoverRed">
+                                        bmw <br>
+                                        <span class="text-xxxl text-white">X3</span>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-white text-lg font-sans mb-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus voluptas 
+                            alias tempore enim doloremque! Inventore facere nulla, saepe, cum, assumenda et 
+                            ut sit vitae 
+                        </p>
+                        <h4 class="text-lg font-sans text-offwhite mb-8">
+                            Production <br> <span class="text-white text-">2000 - 2012</span>
+                        </h4>
+                        <a href="#" class="bg-hoverRed border-2 border-yellow rounded-[45px] py-3 px-4 uppercase 
+                            text-white text-sm no-underline tracking-widest inline-flex items-center group
+                            after:h-6 after:w-6 after:rounded-full after:bg-offwhite after:border-2 after:border-white
+                            hover:after:bg-white"
+                        >
+                            <span class="pr-2 relative group-hover:animate-wiggle">discover</span>
+                            <i class="fas fa-long-arrow-alt-right relative text-lg group-hover:animate-wiggleArrow"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="basis-1/2 relative">
+                    <!-- Slider main container -->
+                    <div class="swiper relative w-[45em] h-full">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="../assets/img/white-chevy.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../assets/img/grey-defender.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../assets/img/navy-range.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../assets/img/red-dodge.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../assets/img/black-skyline.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../assets/img/blue-bmw.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="hidden navigate inline-flex relative float-right bottom-20 right-20 z-10">
+                        <button class=" group bg-bgSocialIcons hover:bg-offwhite w-5 h-5 p-6 text-sm rounded-full text-white hover:text-black flex items-center justify-center mr-4">
+                                <i class="fas fa-chevron-left text-sm rounded-full text-white group-hover:text-black "></i>
+                        </button>
+                        <button class="group bg-bgSocialIcons hover:bg-offwhite w-5 h-5 p-6 text-sm rounded-full text-white hover:text-black flex items-center justify-center">
+                                <i class="fas fa-chevron-right text-sm rounded-full text-white group-hover:text-black "></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="stripe absolute w-[150%] h-[120px] bg-yellow bottom-[240px] left-[-40px] z-0 rotate-[145deg]"></div>
+        <div class="stripe absolute w-[145%] h-[110px] bg-yellow bottom-[-80px] left-[-180px] z-0 rotate-[145deg]"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            speed: 1000,
+            spaceBetween: 200,
+            loop: true,
+            autoplay: {
+                delay: 3500,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
